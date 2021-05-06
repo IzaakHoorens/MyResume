@@ -1,0 +1,93 @@
+\documentclass[12pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=.75]{geometry}
+\usepackage{marvosym} % For cool symbols.
+% \usepackage{hyperref}
+%\setlength{\hintscolumnwidth}{3cm}
+%\setlength{\makecvtitlenamewidth}{10cm}
+
+\name{Izaak}{Hoorens}
+\title{Computer Science with Honours}
+\address{38 Durrell Way}{Rolleston, NZ, 7614}
+\phone[mobile]{022 689 2178}
+\email{izaak.hoorens@gmail.com}
+%\social[twitter]{josh\_pearson06}
+\photo[100pt][0.5pt]{IzaakHeadshot.jpg}                      
+%\quote{"The only way to do great work is to love what you do." - Steve Jobs}
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+
+\begin{document}
+\makecvtitle
+
+\section{About Me}
+\cvitem{}{I am a confident, hardworking and passionate Computer Science student currently in my last year of an honours degree. I enjoy learning new things, challenging myself, working towards satisfying goals and collaborating with others. My studies and internships have given me strong knowledge and experience within Computer Science, Mathematics and Software engineering through a range of individual and group work. I am looking to transition into full time work as a software developer upon graduation, where I can continue to expand my skills and knowledge.}
+
+\section{Skills}
+\cvitem{Programming Languages}{I have learnt and used Python, Javascript, HTML, CSS, SQL, C/C++ and Java to what I would consider an intermediate level. I have applied these to a number of mid to large sized group projects within my studies.}
+\cvitem{Personal}{I have strong and effective communication  and organisation skills as evidenced by my successful group project outcomes, role as Secretary of the UC CompSoc club and experience as a tutor.}
+\cvitem{Technologies with brief experience}{Linux, Tensorflow, git, Vue.js, Spring framework, cucumber, opengl, AWS, vaadin, React/ Redux, Typescript and Selenium/ nightwatch.js along with various other libraries and development tools.}
+
+
+\section{Work Experience}
+\cventry{2021}{Tutor}{University of Canterbury}{Christchurch}{}{Worked directly with Dr. Fabian Gilson to help teach and guide students taking the third year "Software engineering II" course. This role required confidence and strength in my knowledge of the Agile development process, Java software development, automated testing, software design principles and the ability to communicate concepts clearly and concisely to the students. All in addition to the regular course load of my final year of study.}
+
+\newpage
+\cventry{Summer 2020}{Internship}{Seequent}{Christchurch}{~10 weeks}{Worked with the front-end team, gaining a ton of real world web development experience. I spent my time collaboratively adding small features, hunting down bugs and writing automated end-to-end tests. Software stack was React with Redux and typescript, while the tests were written using nightwatch.js }
+\cventry{Summer 2019}{Internship}{Intellihub technologies}{Christchurch}{~15 weeks}{Worked collaboratively in a scrum environment. Developed significant features in a Vaadin Web app. Gained experience writing simple crud apps in spring/ SQL and deploying to AWS. Wrote a large number of automated tests to assist in streamlining of development. Implemented some workflows in Oracle Field service cloud.}
+
+\cventry{Summer 2018}{Photographer's Assistant}{LightWorkx Photography}{Christchurch}{}{}
+
+\section{Education}
+\cventry{2018--2021}{Minor in Mathematics}{Bachelors Degree in Computer Science with Honours}{University of Canterbury}{}{Grade Average: A }
+\cventry{2012--2017}{High School Qualification}{Lincoln High school}{}{}{Endorsement} 
+
+
+
+\section{Relevant Course Work}
+\cvitem{Final year research project}{Applying deep learning techniques to light curves to help identify microlensing events for exoplanet detection. Learning all about the academic research process and how to create machine learning models with Tensorflow.}
+\cvitem{Computer vision project}{Automatic fish identification and direction estimation. Using transfer learning, I trained a neural network to identify 9 different types of fish from the Mediterranean and estimate the direction they were facing.}
+\cvitem{Software Engineering project}{Full year, 9 man, group project. Developing a full web app from scratch. Core technologies used include, Spring, mariaDB, Vue.js and cucumber. Gained incredible experience of the entire software development life cycle and working in a full team.  }
+\cvitem{Software Development}{9 Week, 2 man group project, developing a basic game in Java}
+\cvitem{Web Development}{8 Week, 3 man group project developing a website with interactive calls to a database}
+\cvitem{Embedded Systems}{6 week, 2 man group project on small micro-controller with limited resources developing a game that utilized Infrared communication}
+\cvitem{Computer Graphics}{Projects using opengl2 and 4 to draw some scenes with animations and ray tracing.}
+\cvitem{Artificial Intelligence }{Learnt the basics of AI and how to apply it to some cool algorithm problems.}
+\cvitem{Compilers}{Project using python to scan, parse and compile input text into Java byte code  }
+\cvitem{Networking}{Configured a set of virtual machines to act as functional network. Created file transfer program with error detection using TCP sockets}
+\cvitem{Algorithms}{Various minor projects using Algorithms and data structures to efficiently solve problems}
+
+
+
+\vspace{2mm}
+
+\section{References}
+
+\begin{tabular}{lr}
+% Referee 1
+\begin{minipage}[t]{3.5in}
+Dr. Fabian Gilson\\
+Senior lecturer\\
+University of Canterbury\\
+\Telefon\ +64 03 369 2910\\
+\Letter\ \href{mailto:fabian.gilson@canterbury.ac.nz}{fabian.gilson\textrm{@}canterbury.ac.nz}
+\end{minipage}
+
+% Referee 2
+\begin{minipage}[t]{3.5in}
+Dr. Michael JasonSmith\\
+Senior Software Engineer\\
+Seequent\\
+\Telefon\ +64 27 360 7445\\
+\Letter\ \href{mailto:X@A.ac.jp}{mpj17\textrm{@}ldots.org}
+\end{minipage}
+\end{tabular}
+
+
+\end{document}
+
+
